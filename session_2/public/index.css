@@ -1,0 +1,45 @@
+body {
+    background: rgb(80, 80, 80);
+    font-size: 24px;
+}
+
+h1 {
+    font-family: "SF Sports Night";
+    font-size: 5rem;
+    color: magenta;
+    text-align: center;
+    font-weight: 400;
+}
+
+#player-name {
+    font-size: 1.5rem;
+    color: magenta;
+    font-family: "SF Sports Night";
+    text-align: center;
+}
+
+#scoreboard, #choice-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#game-log {
+    color: magenta;
+    font-family: "Consolas", "Courier New", monospace;
+}
+
+.score-counter {
+    margin: 10px;
+    text-align: center;
+    font-family: "Consolas", "Courier New", monospace;
+}
+
+.score-holder {
+    background: black;
+    color: rgb(0, 250, 33);
+}
+
+.choice-button {
+    margin: 10px;
+}
