@@ -1,0 +1,95 @@
+body {
+  background: rgb(80, 80, 80);
+  font-size: 24px;
+}
+
+h1 {
+  font-family: "SF Sports Night";
+  font-size: 5rem;
+  color: magenta;
+  text-align: center;
+  font-weight: 400;
+}
+
+h3 {
+  color: white;
+}
+
+button {
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 5px;
+  background:rgb(41, 41, 41);
+  color: magenta;
+  border: none;
+  width: 80%;
+}
+
+#player-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+}
+
+#player-form button {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+}
+
+#player-form input {
+  text-align: center;
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 1.2rem;
+  padding: 0;
+  height: 40px;
+  background:rgb(41, 41, 41);
+  color: magenta;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+#player-name {
+  font-size: 1.5rem;
+  color: magenta;
+  font-family: "SF Sports Night";
+  text-align: center;
+}
+
+#scoreboard, #choice-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+}
+
+#game-log {
+  width: 50%;
+  margin: auto;
+  color: magenta;
+  font-family: "Consolas", "Courier New", monospace;
+}
+
+.score-counter {
+  margin: 10px;
+  width: 100px;
+  text-align: center;
+  font-family: "Consolas", "Courier New", monospace;
+}
+
+.score-holder {
+  background: black;
+  color: rgb(0, 250, 33);
+}
+
+.choice-button {
+  margin: 10px;
+}
