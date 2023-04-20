@@ -5,7 +5,7 @@ const ChoiceContainer = ({playHandler}) => (
                 key={c} 
                 id={`choice-${c.toLowerCase()}`} className="choice-button"
                 data-choice={c.toLowerCase()}
-                onClick={e => playHandler(e.target.dataset.choice)}
+                onClick={e => playHandler(c.toLowerCase())}
             >
                 {c}
             </button>
